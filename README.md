@@ -16,6 +16,10 @@
             color: #ffffff; /* Weiß für Überschrift */
             margin-bottom: 20px;
         }
+        h2 {
+            color: #dddddd;
+            margin-top: 30px;
+        }
         p {
             font-size: 1.2em;
             color: #cccccc;
@@ -39,12 +43,22 @@
 <body>
     <h1>Hallo, ich bin <span class="highlight">Matthew</span>!</h1>
     <p>Ich gehe noch zur Schule und spiele gerne Basketball.</p>
-    <p>Meine Lieblingsspiele sind:</p>
+
+    <h2>Meine Lieblingsspiele:</h2>
     <ul>
         <li>War Thunder</li>
         <li>EA FC 26</li>
         <li>Minecraft</li>
         <li>NBA 2K26</li>
     </ul>
+
+    <h2>Meine Lieblingsfilme & Serien:</h2>
+    <ul>
+        <li>Prison Break</li>
+        <li>The Rookie</li>
+        <li>SWAT</li>
+        <li>Swagger</li>
+    </ul>
 </body>
 </html>
+
